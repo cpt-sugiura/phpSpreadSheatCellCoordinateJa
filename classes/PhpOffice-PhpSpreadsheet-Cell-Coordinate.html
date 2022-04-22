@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
             <title>Documentation</title>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
     <link rel="icon" href="images/favicon.ico"/>
@@ -21,6 +21,11 @@
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
+  <style>
+      aside, header {
+          display: none !important;
+      }
+  </style>
     </head>
 <body id="top">
     <header class="phpdocumentor-header phpdocumentor-section">
@@ -61,7 +66,7 @@
     <ul class="phpdocumentor-list">
                     <li>
                 <a href="namespaces/phpoffice-phpspreadsheet.html" class="">PhpSpreadsheet</a>
-                
+
             </li>
             </ul>
 
@@ -73,7 +78,7 @@
 </h4>
 
                         </section>
-            
+
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
@@ -98,15 +103,15 @@
         <h2 class="phpdocumentor-content__title">
     Coordinate
 
-    
+
             <div class="phpdocumentor-element__package">
             in package
             <ul class="phpdocumentor-breadcrumbs">
                                     <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
                             </ul>
         </div>
-    
-    
+
+
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
@@ -289,7 +294,7 @@ row.</dd>
 
 
 
-        
+
     <section class="phpdocumentor-constants">
         <h3 class="phpdocumentor-elements__header" id="constants">
             Constants
@@ -308,7 +313,7 @@ row.</dd>
 
     </aside>
 
-    
+
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">mixed</span>
@@ -321,7 +326,7 @@ row.</dd>
 
         <section class="phpdocumentor-description"></section>
 
-    
+
 
 </article>
                     <article class="phpdocumentor-element -constant -public ">
@@ -347,14 +352,14 @@ row.</dd>
 </code>
 
 
-    
-    
-    
+
+
+
 
 </article>
             </section>
 
-        
+
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
@@ -384,7 +389,7 @@ row.</dd>
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">absoluteCoordinate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cellAddress</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -398,7 +403,7 @@ row.</dd>
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
@@ -406,7 +411,7 @@ row.</dd>
             <section class="phpdocumentor-description"><p>絶対参照の座標        e.g. '$A$1'</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -431,7 +436,7 @@ row.</dd>
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">absoluteReference</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cellAddress</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -446,7 +451,7 @@ row.</dd>
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
@@ -454,7 +459,7 @@ row.</dd>
             <section class="phpdocumentor-description"><p>絶対座標        e.g. '$A' or '$1' or '$A$1'</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -479,7 +484,7 @@ row.</dd>
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">buildRange</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$range</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -494,7 +499,7 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
@@ -502,7 +507,7 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
             <section class="phpdocumentor-description"><p>範囲を表す文字列　e.g. 'A1' or 'A1:A2' or 'A1:A2,C1:C2'</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -527,7 +532,7 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">columnIndexFromString</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$columnAddress</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -541,7 +546,7 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
@@ -549,7 +554,7 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
             <section class="phpdocumentor-description"><p>列インデックス (A = 1)</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -574,7 +579,7 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">coordinateFromString</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cellAddress</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -588,13 +593,13 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -619,7 +624,7 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">coordinateIsRange</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cellAddress</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -633,7 +638,7 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
@@ -641,7 +646,7 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
             <section class="phpdocumentor-description"><p>座標がセルの範囲を表しているかどうか。 eg: false or true or true</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -666,7 +671,7 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">extractAllCellReferencesInRange</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cellRange</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -680,7 +685,7 @@ e.g. [['A1']] or [['A1','A2']] or [['A1','A2'],['C1','C2']]</p>
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
@@ -693,7 +698,7 @@ or [&quot;C3&quot;,&quot;C4&quot;,&quot;C5&quot;,&quot;D3&quot;,&quot;D4&quot;,&
 or [&quot;A1&quot;,&quot;B1&quot;,&quot;B3&quot;,&quot;C1&quot;,&quot;C3&quot;]</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -718,7 +723,7 @@ or [&quot;A1&quot;,&quot;B1&quot;,&quot;B3&quot;,&quot;C1&quot;,&quot;C3&quot;]<
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getRangeBoundaries</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$range</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -732,7 +737,7 @@ or [&quot;A1&quot;,&quot;B1&quot;,&quot;B3&quot;,&quot;C1&quot;,&quot;C3&quot;]<
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
@@ -742,7 +747,7 @@ or [&quot;A1&quot;,&quot;B1&quot;,&quot;B3&quot;,&quot;C1&quot;,&quot;C3&quot;]<
 e.g. [[&quot;A&quot;, &quot;1&quot;],[&quot;A&quot;, &quot;1&quot;]] or [[&quot;A&quot;,&quot;1&quot;],[&quot;A&quot;,&quot;2&quot;]]</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -767,7 +772,7 @@ e.g. [[&quot;A&quot;, &quot;1&quot;],[&quot;A&quot;, &quot;1&quot;]] or [[&quot;
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">indexesFromString</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$coordinates</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -781,13 +786,13 @@ e.g. [[&quot;A&quot;, &quot;1&quot;],[&quot;A&quot;, &quot;1&quot;]] or [[&quot;
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -834,7 +839,7 @@ e.g. [[&quot;A&quot;, &quot;1&quot;],[&quot;A&quot;, &quot;1&quot;]] or [[&quot;
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
@@ -842,7 +847,7 @@ e.g. [[&quot;A&quot;, &quot;1&quot;],[&quot;A&quot;, &quot;1&quot;]] or [[&quot;
             <section class="phpdocumentor-description"><p>範囲をキーとする連想配列</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -867,7 +872,7 @@ e.g. [[&quot;A&quot;, &quot;1&quot;],[&quot;A&quot;, &quot;1&quot;]] or [[&quot;
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">rangeBoundaries</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$range</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -881,7 +886,7 @@ e.g. [[&quot;A&quot;, &quot;1&quot;],[&quot;A&quot;, &quot;1&quot;]] or [[&quot;
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
@@ -891,7 +896,7 @@ e.g. [[&quot;A&quot;, &quot;1&quot;],[&quot;A&quot;, &quot;1&quot;]] or [[&quot;
 e.g. [[1, &quot;1&quot;],[1, &quot;1&quot;]] or [[1,&quot;1&quot;],[1,&quot;2&quot;]]</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -916,7 +921,7 @@ e.g. [[1, &quot;1&quot;],[1, &quot;1&quot;]] or [[1,&quot;1&quot;],[1,&quot;2&qu
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">rangeDimension</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$range</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -930,7 +935,7 @@ e.g. [[1, &quot;1&quot;],[1, &quot;1&quot;]] or [[1,&quot;1&quot;],[1,&quot;2&qu
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
@@ -938,7 +943,7 @@ e.g. [[1, &quot;1&quot;],[1, &quot;1&quot;]] or [[1,&quot;1&quot;],[1,&quot;2&qu
             <section class="phpdocumentor-description"><p>範囲の大きさ [幅, 高さ] (e.g. [1, 2])</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -963,7 +968,7 @@ e.g. [[1, &quot;1&quot;],[1, &quot;1&quot;]] or [[1,&quot;1&quot;],[1,&quot;2&qu
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">splitRange</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$range</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -977,7 +982,7 @@ e.g. [[1, &quot;1&quot;],[1, &quot;1&quot;]] or [[1,&quot;1&quot;],[1,&quot;2&qu
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
@@ -987,7 +992,7 @@ e.g. ['B4','D9'] or [['B4','D9'], ['H2','O11']]
 or ['B4']</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1012,7 +1017,7 @@ or ['B4']</p>
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">stringFromColumnIndex</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$columnIndex</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1026,7 +1031,7 @@ or ['B4']</p>
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
@@ -1034,7 +1039,7 @@ or ['B4']</p>
             <section class="phpdocumentor-description"><p>e.g. 'A' or 'B'</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1069,17 +1074,17 @@ or ['B4']</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1104,7 +1109,7 @@ or ['B4']</p>
     <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getReferencesForCellBlock</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cellBlock</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1118,7 +1123,7 @@ or ['B4']</p>
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
@@ -1126,7 +1131,7 @@ or ['B4']</p>
             <section class="phpdocumentor-description"><p>All individual cells in that range</p>
 </section>
 
-    
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1145,7 +1150,7 @@ or ['B4']</p>
 
     </aside>
 
-    
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">processRangeSetOperators</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$operators</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cells</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
@@ -1172,13 +1177,13 @@ or ['B4']</p>
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1197,7 +1202,7 @@ or ['B4']</p>
 
     </aside>
 
-    
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">sortCellReferenceArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cellList</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
@@ -1216,13 +1221,13 @@ or ['B4']</p>
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1248,7 +1253,7 @@ row.</p>
     <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">validateRange</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cellBlock</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$startColumnIndex</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endColumnIndex</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$currentRow</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endRow</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1265,42 +1270,42 @@ row.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$endColumnIndex</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$currentRow</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$endRow</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-        
-    
+
+
 </article>
             </section>
 
-        
+
     <script type="text/javascript">
         function loadExternalCodeSnippets(line) {
             Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
